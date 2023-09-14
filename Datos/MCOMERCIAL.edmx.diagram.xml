@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e2131303dd4c435b815c5fd07db84bce" Name="Diagram1">
+        <EntityTypeShape EntityType="DBCOMERCIALModel.CLIENTES" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCOMERCIALModel.EMPLEADOS" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCOMERCIALModel.Detallefactura" Width="1.5" PointX="7.625" PointY="1.25" />
+        <EntityTypeShape EntityType="DBCOMERCIALModel.Factura" Width="1.5" PointX="5.375" PointY="1" />
+        <EntityTypeShape EntityType="DBCOMERCIALModel.Producto" Width="1.5" PointX="5.375" PointY="5.375" />
+        <EntityTypeShape EntityType="DBCOMERCIALModel.Proveedores" Width="1.5" PointX="0.75" PointY="5.75" />
+        <AssociationConnector Association="DBCOMERCIALModel.FK__Factura__idclien__4CA06362" />
+        <AssociationConnector Association="DBCOMERCIALModel.FK__Detallefa__IdFac__5AEE82B9" />
+        <AssociationConnector Association="DBCOMERCIALModel.FK__Detallefa__IdPro__5BE2A6F2" />
+        <AssociationConnector Association="DBCOMERCIALModel.FK__Factura__idemple__4D94879B" />
+        <EntityTypeShape EntityType="DBCOMERCIALModel.compra" Width="1.5" PointX="8" PointY="5" />
+        <EntityTypeShape EntityType="DBCOMERCIALModel.Compra_Detalle" Width="1.5" PointX="10.25" PointY="5.25" />
+        <EntityTypeShape EntityType="DBCOMERCIALModel.empresa" Width="1.5" PointX="3.375" PointY="8.75" />
+        <EntityTypeShape EntityType="DBCOMERCIALModel.sysdiagrams" Width="1.5" PointX="5.375" PointY="8.75" />
+        <AssociationConnector Association="DBCOMERCIALModel.FK__compra__IdEmplea__75A278F5" />
+        <AssociationConnector Association="DBCOMERCIALModel.FK__compra__IdProvee__74AE54BC" />
+        <AssociationConnector Association="DBCOMERCIALModel.FK__Compra_De__IdCom__787EE5A0" />
+        <AssociationConnector Association="DBCOMERCIALModel.FK__Compra_De__IdPro__797309D9" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

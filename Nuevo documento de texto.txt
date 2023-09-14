@@ -1,0 +1,5 @@
+connectionStrings>
+    <add name="DBCOMERCIALEntities"
+      connectionString="metadata=res://*/MCOMERCIAL.csdl|res://*/MCOMERCIAL.ssdl|res://*/MCOMERCIAL.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=L15-29-69;initial catalog=DBCOMERCIAL;user id=sa;password=Uca.1234;MultipleActiveResultSets=True;App=EntityFramework&quot;"
+      providerName="System.Data.EntityClient"/>
+  </connectionStrings>
